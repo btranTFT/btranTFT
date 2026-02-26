@@ -13,9 +13,7 @@
 
 ### About
 
-Software engineer with industry experience at companies like **Amazon** and exposure to **AWS** and **Google** ecosystems, currently deepening my knowledge through a CS graduate program. I build clean, performant, and accessible web applications from pixel to production — no UI libraries, just solid fundamentals.
-
-My portfolio itself is a testament to that philosophy: hand-crafted in React with a pure CSS design system, dark/light theme persistence, scroll-spy navigation, and zero external component dependencies.
+Software engineer with industry experience at companies like **Amazon** and exposure to **AWS** and **Google** ecosystems, currently deepening my knowledge through a CS graduate program. I build clean, performant, and accessible web applications from pixel to production — and I'm increasingly interested in the intersection of **machine learning and creative applications**, from audio generation to intelligent tooling.
 
 ---
 
@@ -35,6 +33,11 @@ My portfolio itself is a testament to that philosophy: hand-crafted in React wit
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
+**ML & Audio**
+
+![Python](https://img.shields.io/badge/MusicGen-ML-8B5CF6?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
 **Cloud & Tools**
 
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
@@ -44,36 +47,29 @@ My portfolio itself is a testament to that philosophy: hand-crafted in React wit
 
 ---
 
-### GitHub Stats
+### Featured Project — MIDI Remaster Lab
 
-<div align="center">
+> **Transform MIDI files into console-style soundfont audio — or full AI-generated music.**
 
-![Benjamin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=btranTFT&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=18181b&text_color=3f3f46&icon_color=18181b)
+![MIDI Remaster Lab](https://raw.githubusercontent.com/btranTFT/csfolioREVAMP/master/public/midi-remaster-preview.png)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=btranTFT&layout=compact&hide_border=true&bg_color=ffffff&title_color=18181b&text_color=3f3f46&langs_count=6)
+MIDI Remaster Lab is a full-stack audio processing tool that takes `.mid` / `.midi` files and remasters them in two modes:
 
-</div>
+- **Baseline (Soundfont)** — Remaps MIDI channels to authentic console soundfonts: SNES, GBA, NDS, PS2, and Wii
+- **ML (MusicGen)** — Uses AI-generated audio from the MIDI source via Meta's MusicGen model
 
----
+The pipeline classifies MIDI channels automatically, remaps instruments to the selected console soundfont bus, renders the audio to MP3, and surfaces a live log stream, audio preview, and channel mapping breakdown — all in a dark, terminal-aesthetic UI.
 
-### Featured Project — csfolioREVAMP
-
-> **My personal portfolio, built from scratch.**
-> React · Plain CSS · No UI library · Dark/light theme · Scroll-spy · Accessible
-
-A fully hand-crafted developer portfolio that avoids the typical template trap. Features a CSS custom property design system (`theme.css`), `IntersectionObserver`-powered scroll-spy nav, a rotating `FlipSentences` hero subtitle, collapsible project cards, and full keyboard/ARIA accessibility support. All content is data-driven from a single `siteData.js` file.
-
-[![View Repo](https://img.shields.io/badge/Repo-csfolioREVAMP-18181b?style=flat-square&logo=github)](https://github.com/btranTFT/csfolioREVAMP)
-[![Live Site](https://img.shields.io/badge/Live-btranfolio.vercel.app-18181b?style=flat-square&logo=vercel)](https://btranfolio.vercel.app)
+**Stack:** Python · Flask · MusicGen · Soundfont rendering · React · REST API
 
 ---
 
 ### Currently
 
 - 🎓 &nbsp;Pursuing a **CS graduate degree** to sharpen CS foundations
-- 🔨 &nbsp;Building and refining my **personal portfolio**
+- 🤖 &nbsp;Exploring **ML applications** in audio, creative tooling, and generative AI
+- 🔨 &nbsp;Building full-stack tools that blend **systems thinking with modern ML**
 - ☁️ &nbsp;Deepening expertise in **cloud architecture** and distributed systems
-- 📖 &nbsp;Interested in **accessible UI**, clean design systems, and performance
 
 ---
 
